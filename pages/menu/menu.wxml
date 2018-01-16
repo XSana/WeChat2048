@@ -1,0 +1,11 @@
+<!--pages/start/start.wxml-->
+<view class='action_cavas'>
+    <view class='title'>2048</view>
+    <view class='btn_bar'>
+        <button class='btn' bindtap='onStart' plain='true' disabled="{{disabled}}" data-size='3'>3 × 3</button>
+        <button class='btn' bindtap='onStart' plain='true' disabled="{{disabled}}" data-size='4'>4 × 4</button>
+        <button class='btn' bindtap='onStart' plain='true' disabled="{{disabled}}" data-size='5'>5 × 5</button>
+        <button class='btn' bindtap='onStart' plain='true' disabled="{{disabled}}" data-size='6'>6 × 6</button>
+    </view>
+    <view class='text'>点击按钮选择难度</view>
+</view>

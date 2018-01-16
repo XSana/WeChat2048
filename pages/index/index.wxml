@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="action_cavas">
+    <view class="score">
+        <view class="title">2048</view>
+        <view class="scoredetail">
+            <view class="scoredesc">{{scoreName}}</view>
+            <view class="scorenumber">{{scoreNumber}}</view>
+        </view>
+        <view class="scoremax">
+            <view class="scoredesc">{{scoreMaxName}}</view>
+            <view class="scorenumber">{{scoreMaxNumber}}</view>
+        </view>
+    </view>
+    <view class="bc_cavas" id="tapTest" data-hi="WeChat" bindtouchstart="tapStart" bindtouchmove="tapMove" bindtouchend="tapEnd">
+        <view class="bc" wx:for="{{numberArray}}" wx:for-item="row">
+            <view wx:for="{{row}}" class="bc_ bc_size{{size}} bc_{{item}}"> {{item}}
+            </view>
+        </view>
+    </view>
+    <button class='btn_re' bindtap='reGame'>重 开</button>
+</view>

@@ -1,0 +1,12 @@
+{
+    "pages": [
+        "pages/menu/menu",
+        "pages/index/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "小游戏",
+        "navigationBarTextStyle": "black"
+    }
+}

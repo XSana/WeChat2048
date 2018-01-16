@@ -1,0 +1,195 @@
+.action_cavas {
+    width: 100%;
+    height: 100%;
+}
+
+.score {
+    display: flex;
+}
+
+.scoredetail {
+    flex: 1;
+    height: 150rpx;
+    background: #eee4da;
+    margin: 40rpx 15rpx 20rpx 15rpx;
+    text-align: center;
+    border-radius: 8rpx;
+}
+
+.scoremax {
+    flex: 1;
+    height: 150rpx;
+    color: #fff;
+    background: #6c6c6c;
+    margin: 40rpx 40rpx 20rpx 15rpx;
+    text-align: center;
+    border-radius: 8rpx;
+}
+
+.scoredesc {
+    font-size: 0.8rem;
+    line-height: 60rpx;
+}
+
+.scorenumber {
+    line-height: 70rpx;
+}
+
+.btn_re {
+    margin: 40rpx 40rpx;
+    border: 1rpx solid #6cf;
+    background-color: transparent;
+    color: #6cf;
+}
+
+.title {
+    flex: 1;
+    height: 150rpx;
+    line-height: 150rpx;
+    background: deepskyblue;
+    margin: 40rpx 15rpx 20rpx 40rpx;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 8rpx;
+}
+
+.bc_cavas {
+    display: flex;
+    height: 670rpx;
+    background-color: #b8af9e;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 40rpx 40rpx;
+}
+
+.bc {
+    display: flex;
+}
+
+.bc_ {
+    margin: 6rpx 6rpx;
+    text-align: center;
+    font-size: 60rpx;
+    color: #fff7eb;
+}
+
+.bc_size3 {
+    height: 202rpx;
+    width: 202rpx;
+    line-height: 202rpx;
+}
+
+.bc_size4 {
+    height: 152rpx;
+    width: 152rpx;
+    line-height: 152rpx;
+}
+
+.bc_size5 {
+    height: 121rpx;
+    width: 121rpx;
+    line-height: 121rpx;
+}
+
+.bc_size6 {
+    height: 101rpx;
+    width: 101rpx;
+    line-height: 101rpx;
+    margin: 5rpx 5rpx;
+}
+
+.bc_0 {
+    color: #ccc0b2;
+    background: #ccc0b2;
+}
+
+.bc_2 {
+    color: #7c736a;
+    background: #eee4da;
+}
+
+.bc_4 {
+    color: #7c736a;
+    background: #ece0c8;
+}
+
+.bc_8 {
+    color: #fff7eb;
+    background: #f2b179;
+}
+
+.bc_16 {
+    color: #fff7eb;
+    background: #f59563;
+}
+
+.bc_32 {
+    color: #fff7eb;
+    background: #f57c5f;
+}
+
+.bc_64 {
+    color: #fff7eb;
+    background: #f65d3b;
+}
+
+.bc_128 {
+    color: #fff7eb;
+    background: #edce71;
+}
+
+.bc_256 {
+    color: #fff7eb;
+    background: #edcc61;
+}
+
+.bc_512 {
+    color: #fff7eb;
+    background: #ecc850;
+}
+
+.bc_1024 {
+    color: #fff7eb;
+    background: #edc53f;
+}
+
+.bc_2048 {
+    color: #fff7eb;
+    background: #eec22e;
+}
+
+.bc_4096 {
+    color: #fff7eb;
+    background: #ef666d;
+}
+
+.bc_8192 {
+    color: #fff7eb;
+    background: #ed4d59;
+}
+
+.bc_16384 {
+    font-size: 1.3rem;
+    color: #fff7eb;
+    background: #e1433a;
+}
+
+.bc_32768 {
+    font-size: 1.3rem;
+    color: #fff7eb;
+    background: #72b4d6;
+}
+
+.bc_65536 {
+    font-size: 1.3rem;
+    color: #fff7eb;
+    background: #5ca0df;
+}
+
+.bc_131072 {
+    font-size: 1.1rem;
+    color: #fff7eb;
+    background: #007bbe;
+}
